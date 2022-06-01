@@ -1,0 +1,116 @@
+.tabColor {
+  flex: 1;
+  height: 50px;
+  background-color: #121212;
+  color: white;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.main {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  background-color: #1d1b1b;
+
+  flex-direction: column;
+}
+.changeTabBackgroundColor {
+  width: 100%;
+  height: 10vh;
+  border-bottom: 1px solid black;
+  display: flex;
+}
+.handler {
+  width: 100%;
+  height: 90vh;
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.SearchCounter {
+  width: 100%;
+  height: 10vh;
+  background-color: aqua;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.filterButton {
+  background-color: black;
+}
+th {
+  flex: 1;
+  text-align: right;
+}
+tr {
+  display: flex;
+  flex-direction: row;
+}
+
+.userdetails {
+  width: 20%;
+}
+progress {
+  border-radius: 0px;
+  height: 50px;
+  width: 40%;
+  background-color: blue;
+  color: white;
+}
+progress::-webkit-progress-bar {
+  background-color: blue;
+}
+progress::-webkit-progress-value {
+  background-color: gold;
+}
+.slider {
+  width: 100%;
+  height: 50%;
+  background-color: transparent;
+  padding: 0px 20px;
+}
+.imgSlider {
+  width: 100%;
+  height: 50vh;
+}
+.image {
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+}
+.parallelogram {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inputField {
+  width: 300px;
+  height: 35px;
+  transform: skew(-20deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1.5px solid white;
+}
+.inputFieldForparallelogram {
+  transform: skew(20deg);
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding: 0px 10px;
+  color: white;
+}
